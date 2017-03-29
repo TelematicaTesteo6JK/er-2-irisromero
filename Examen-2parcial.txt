@@ -1,0 +1,32 @@
+Acesor de Tesis-Tema de tesis
+
+Un asesor de tesis puede solicitar cierta cantidad de dinero dependiendo los temas de tesis que tenga que se esten haciendo, puede tener minimo 1 tema de tesis maximo 20 temas de tesis por semestre.
+Segun el numero de temas de tesis se le dará un dinero para apoyar los temas de tesis, lo minimo se les dará $5,000.00 maximo $25,000.00 por cada 5 temas de tesis se le aumentará el doble la cantidad de dinero.
+
+Particiones
+0............ ------->$0.00
+1,2,3,4,5 -------> $5,000.00
+6,7,8,9,10 ------> $10,000.00
+11,12,13,14,15 -----> $20,000.00
+16,17,18,19,20 -----> $40,000.00
+21........... --------------------> $0.00
+
+test data			Expected result
+0			$0.00
+3			$5,000.00
+8			$10,000.00
+14			$20,000.00
+20			$40,000.00
+25			$0.00
+
+0			$0.00
+1			$5,000.00
+5			$5,000.00
+6			$10,000.00
+10			$10,000.00
+11			$20,000.00
+15			$20,000.00
+16			$40,000.00
+20			$40,000.00
+21			$0.00
+Nivel de prueba: aceptacion porque es una solicitud que los asesores si es aceptada a darle esa cantidad de dinero o no. 
